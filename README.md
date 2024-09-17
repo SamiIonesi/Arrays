@@ -69,9 +69,9 @@ public:
 
 ### 1. **Display**
 
-    This function will display all the elements of the array.
+This function will display all the elements of the array.
 
-    It has a time complexity of **O(n)**.
+It has a time complexity of **O(n)**.
   
 ```cpp
 void display()
@@ -87,9 +87,9 @@ void display()
 
 ### 2. **Append**
 
-    This function will add an element at the end of the array.
+This function will add an element at the end of the array.
 
-    It has a time complexity of **O(1)**.
+It has a time complexity of **O(1)**.
   
 ```cpp
 void append(int value)
@@ -104,12 +104,12 @@ void append(int value)
   
 ### 3. **Insert**
 
-    This function will add an element at a specific index, with a specific value into the array.
+This function will add an element at a specific index, with a specific value into the array.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 bool insert(int index, int value)
@@ -129,12 +129,12 @@ bool insert(int index, int value)
 
 ### 4. **Delete**
 
-    This function will delete an element from a specific index of the array.
+This function will delete an element from a specific index of the array.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 int deleteElement(int index)
@@ -158,12 +158,12 @@ int deleteElement(int index)
 
 ###  5. **Get**
 
-    This function will return the element present in array from a specific index.
+This function will return the element present in array from a specific index.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(1)** for average case
-    - **O(1)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(1)** for average case
+- **O(1)** for worst case
   
 ```cpp
 int get(int index)
@@ -179,12 +179,12 @@ int get(int index)
 
 ### 6. **Set**
 
-    This function will set a specific value to an element from the array given by a specific index.
+This function will set a specific value to an element from the array given by a specific index.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(1)** for average case
-    - **O(1)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(1)** for average case
+- **O(1)** for worst case
   
 ```cpp
 bool set(int index, int value)
@@ -200,12 +200,12 @@ bool set(int index, int value)
 
 ### 7. **Max**
 
-    This function will return the maximum element value from the array.
+This function will return the maximum element value from the array.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 int max()
@@ -227,12 +227,12 @@ int max()
 
 ### 8. **Min**
 
-    This function will return the minimum element value from the array.
+This function will return the minimum element value from the array.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 int min()
@@ -252,14 +252,14 @@ int min()
 }
 ```
 
-9. **Sum**
+### 9. **Sum**
 
-    This function will return the sum of all elements from the array.
+This function will return the sum of all elements from the array.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 int sum()
@@ -277,14 +277,14 @@ int sum()
 }
 ```
 
-10. **Average**
+### 10. **Average**
 
-    This function will return the average of all elements from the array.
+This function will return the average of all elements from the array.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 float avg()
@@ -302,14 +302,14 @@ float avg()
 }
 ```
 
-11. **Reverse**
+### 11. **Reverse**
 
-    This function will reverse the array.
+This function will reverse the array.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void reverse()
@@ -326,14 +326,14 @@ void reverse()
 }
 ```
 
-12. **Left Shift**
+### 12. **Left Shift**
 
-    This function will shift to left all the elements from the array by one.
+This function will shift to left all the elements from the array by one.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void leftShift()
@@ -348,14 +348,14 @@ void leftShift()
 }
 ```
 
-13. **Left Rotate**
+### 13. **Left Rotate**
 
-    This function will rotate to left all the elements from the array.
+This function will rotate to left all the elements from the array.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void leftRotate()
@@ -372,14 +372,14 @@ void leftRotate()
 }
 ```
 
-14. **Right Shift**
+### 14. **Right Shift**
 
-    This function will shift to right all the elements from the array by one.
+This function will shift to right all the elements from the array by one.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
  void rightShift()
@@ -394,14 +394,14 @@ void leftRotate()
 }
 ```
 
-15. **Right Rotate**
+### 15. **Right Rotate**
 
-    This function will rotate to right all the elements from the array.
+This function will rotate to right all the elements from the array.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void rightRotate()
@@ -418,14 +418,14 @@ void rightRotate()
 }
 ```
 
-16. **Check if an array is sorted**
+### 16. **Check if an array is sorted**
 
-    This function checks if an array is sorted and returns _true_ if it is; otherwise, it returns _false_.
+This function checks if an array is sorted and returns _true_ if it is; otherwise, it returns _false_.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 bool isSorted()
@@ -443,16 +443,16 @@ bool isSorted()
     }
 ```
 
-17. **Merge**
+### 17. **Merge**
 
-    This function will merge two sorted arrays into a single sorted array.
+This function will merge two sorted arrays into a single sorted array.
 
-    Condition: The input arrays must be sorted.
+Condition: The input arrays must be sorted.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 bool isSorted()
@@ -470,16 +470,16 @@ bool isSorted()
     }
 ```
 
-18. **Find duplicates in a sorted array**
+### 18. **Find duplicates in a sorted array**
 
-    This function will find the duplicates in a sorted array and then print the duplicate number along with the number of times it appears.
+This function will find the duplicates in a sorted array and then print the duplicate number along with the number of times it appears.
 
-    Condition: The input arrays must be sorted.
+Condition: The input arrays must be sorted.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void findDuplicatesInASortedArray()
@@ -507,14 +507,14 @@ void findDuplicatesInASortedArray()
 }
 ```
 
-19. **Find duplicates in a unsorted array**
+### 19. **Find duplicates in a unsorted array**
 
-    This function will find the duplicates in a unsorted array and then print the duplicate number along with the number of times it appears.
+This function will find the duplicates in a unsorted array and then print the duplicate number along with the number of times it appears.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void findDuplicatesInAUnsortedArray()
@@ -543,14 +543,14 @@ void findDuplicatesInAUnsortedArray()
 }
 ```
 
-20. **Find pairs of sum in a sortded array**
+### 20. **Find pairs of sum in a sortded array**
 
-    This function will find pairs of numbers in a sorted array that sum to k and will display those pairs.
+This function will find pairs of numbers in a sorted array that sum to k and will display those pairs.
 
-    It has a time complexity of:
-    - **Ω(n)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+It has a time complexity of:
+- **Ω(n)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 void pairWithSumKInASortedArray(int sum)
@@ -579,22 +579,24 @@ void pairWithSumKInASortedArray(int sum)
 }
 ```
 
+### Array searching methods
+
 There are two methods for searching in an array:
 
 -----
 
-1. **Linear search**
+### 1. **Linear search**
 
-    In this method, we will search for the key (element) in the array in linear mode. 
-    
-    Workflow: we will check each element in the array for the key; if it's found, then we say that the search was successful; otherwise, the search is unsuccessful.
+In this method, we will search for the key (element) in the array in linear mode. 
 
-    Condition: the elements in an array must be unique, there must not be any duplicate elements in the array.
+Workflow: we will check each element in the array for the key; if it's found, then we say that the search was successful; otherwise, the search is unsuccessful.
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(n)** for average case
-    - **O(n)** for worst case
+Condition: the elements in an array must be unique, there must not be any duplicate elements in the array.
+
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(n)** for average case
+- **O(n)** for worst case
   
 ```cpp
 int liniarSearch(int key)
@@ -608,18 +610,18 @@ int liniarSearch(int key)
 }
 ```
 
-2. **Binary search**
+### 2. **Binary search**
 
-    In this method, we will search for the key (element) in the array in binary mode. 
-    
-    Workflow: the array will be halved and it will be checked in which half the key fits. This operation is done until finally the key is found at the corresponding index.
-    
-    Conndition: the array should be sorted.
+In this method, we will search for the key (element) in the array in binary mode. 
 
-    It has a time complexity of:
-    - **Ω(1)** for best case
-    - **θ(log n)** for average case
-    - **O( log n)** for worst case
+Workflow: the array will be halved and it will be checked in which half the key fits. This operation is done until finally the key is found at the corresponding index.
+
+Conndition: the array should be sorted.
+
+It has a time complexity of:
+- **Ω(1)** for best case
+- **θ(log n)** for average case
+- **O( log n)** for worst case
   
 ```cpp
 int binarySearch(int key)
