@@ -3,7 +3,8 @@ This repository explains the theory behind arrays and the various methods applie
 
 ## Array definition
 
-An array is a build-in data structure that is provided almost by every programming language.
+An array is a build-in data structure that is provided almost by every programming language. <br>
+It is basically a container of elements (a vector), each element having the same data type.
 
 ## Arrays representation
 
