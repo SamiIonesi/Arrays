@@ -582,7 +582,7 @@ void pairWithSumKInASortedArray(int sum)
 }
 ```
 
-### Array searching methods
+## Array searching methods
 
 There are two methods for searching in an array:
 
